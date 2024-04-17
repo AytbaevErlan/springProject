@@ -48,9 +48,9 @@ import org.springframework.web.servlet.i18n.LocaleChangeInterceptor;
 import org.springframework.web.servlet.view.InternalResourceViewResolver;
 import org.springframework.web.servlet.view.JstlView;
 
-import com.itbulls.learnit.spring.aop.DemoAop;
-import com.itbulls.learnit.spring.aop.DemoAspect;
-import com.itbulls.learnit.spring.aop.User;
+import org.example.spring.aop.DemoAop;
+import org.example.spring.aop.DemoAspect;
+import org.example.spring.aop.User;
 import org.example.spring.interceptors.DemoHandlerInterceptor;
 import org.example.spring.security.DefaultAuthenticationFailureHandler;
 import org.example.spring.security.DefaultAuthenticationProvider;
